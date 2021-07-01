@@ -1,0 +1,237 @@
+
+body::-webkit-scrollbar{
+    width: 15px;
+    border-radius: 5px;  
+}
+body::-webkit-scrollbar-track{
+    border: 2px solid rgb(61, 16, 104);
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb{
+   background-color: rgb(61, 16, 104);
+   border-radius: 10px;
+   outline:none;
+}
+body::-webkit-scrollbar-button{
+    background-color: rgb(61, 16, 104);
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid rgb(61, 16, 104);
+    outline:none;
+    height: 35px;
+}
+.home{
+    position: fixed; 
+    right: 50px;
+    bottom: 10px; 
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.315);
+}
+.home:hover{
+    box-shadow: none;
+}
+
+.header>h2>a{
+    color: magenta;
+    font-family: sans-serif;
+}
+.form{
+    width: 90%;
+    color: white;
+    margin: 0 auto 0 auto;
+    padding: 30px 0 25px 15px;
+    background-color: rgba(65, 5, 121, 0.877);
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.582);
+    border-radius: 20px;
+    font-family: cursive;
+}
+/* .form:hover{
+    box-shadow: none;
+} */
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white; 
+    outline: none;
+    color: white
+}
+input:focus{
+    border-bottom: 2px solid magenta;
+}
+span{
+    font-size: 13px;
+}
+#firstname{
+    margin-left:60px
+}
+#lastname{
+    margin-left: 67px
+}
+#dob{
+   width: 168px;
+    margin-left: 35px;
+}
+#email{
+    margin-left: 84px
+}
+#number{
+    margin-left: 85px
+}
+.gender{
+    margin-left: 96px;
+    font-size: 14px;
+}
+#address{
+    border: 1px solid white;
+    background-color: transparent;
+    outline-color: magenta;    
+    color: white;
+    margin-left: 86px;
+    align-self: baseline;
+    border-radius: 5px;
+}
+#address:focus{
+    box-shadow: 0px 0px 3px 1px magenta;
+}
+#city{
+    margin-left: 133px;
+}
+#pincode{
+    margin-left: 85px;
+}
+#state{
+    margin-left: 109px;
+}
+#countries{
+    margin-left: 86px;
+    width: 180px;
+    background-color: transparent;
+    outline: none;
+    height: 25px;
+    border-radius: 5px;
+    color: white;;
+}
+#countries>option{
+    color: white;
+    background-color: rgb(57, 12, 94);
+    outline: none;
+}
+#countries:hover{
+   border: 2px solid magenta;
+}
+.allhobbies{
+    margin-left: 90px;
+}
+.allhobbies span{
+    font-size: 14px;
+}
+.allhobbies input{
+    margin-left: 19px;
+}
+.allhobbies2{
+    margin-left: 170px;
+}
+.allhobbies2 input{
+    margin-left: 7px;
+}
+.allhobbies2 span{
+    font-size: 14px;
+}
+.singing{
+    margin-left: 10px;
+}
+.hockey{
+    margin-left: 10px;
+}
+.dancing{
+    margin-left: 10px;
+}
+.other{
+    margin-left: 11px;
+}
+#hockey{
+    margin-left: 16px;
+}
+#ohCheck{
+    margin-left: 23px;
+}
+#ohInput{
+    visibility: hidden;
+}
+.other:hover #ohInput{
+    visibility: visible;
+}
+.labelQualifi{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+.table{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.tabe td{
+    padding: 0;
+}
+.table input{
+    border: 1px solid white;
+    height: 25px;
+    margin: 0;
+    border-radius: 8px;
+}
+.table input:focus{
+    border: 2px solid magenta;
+}
+.courses{
+    margin-left: 90px;
+    word-spacing: 15px;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    margin-top: 25px;
+    font-size: 18px;
+    font-family: cursive;
+    border: 1.5px solid magenta;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    /* box-shadow: 0 0 3px 1px rgba(230, 224, 224, 0.685); */
+}
+.btn input:hover{
+    background-color: magenta;
+    color: white;
+    text-shadow: 1px 1px 1px magenta;
+    box-shadow: none;
+    border-color: white;
+    font-weight: bold;
+}
+
+/* THIS IS SUCCESSFULL PAGE */
+.tick{
+    margin-top: 50px;
+}
+.thanks{
+    color: rgb(18, 175, 18);
+    font-weight: bold;
+    font-family: cursive;
+}
+.para{
+    font-size: 40px;
+    color: rgb(112, 30, 180);
+    font-weight: bold;
+}
+a{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(90, 13, 153);
+}
+
+
+
+

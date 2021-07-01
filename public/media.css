@@ -1,0 +1,91 @@
+@media screen and (max-width:650px){
+    .flip-card{
+        display: none;
+    }
+    .grdient{
+        height: 600px;
+      }
+      .mainContainer {
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        border-bottom-left-radius: 0;
+        background-image: url(./img/main.jpg);
+    }
+    .transparent {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        border-bottom-left-radius: 0;
+        background-color: rgba(0, 0, 0, 0.664);
+        transition: background-color 0.5s ease-in-out;    
+    }
+    .transparent:hover{
+        background-color: rgba(0, 0, 0, 0.664);
+        transition: all 0.5s ease-in-out;
+    }
+       
+    .maintext{
+        top: 50%;
+        left:50%;
+        width: 100%;
+        color: white;
+        text-align: center;
+        position: absolute;
+        border-bottom: none;
+        transform: translate(-50%,-50%);
+    }
+    .maintext>h2{
+        color: white;
+        text-decoration: underline  rgb(216, 11, 113);
+        word-spacing: 5px;
+        font-size: 3vw;
+    }
+    .maintext>h1{
+        font-size: 4vw;
+    }
+    .maintext p{
+        font-size: 2vw;
+    }
+    .maintext>h1>b{
+        color: rgb(216, 11, 113);
+    }
+    
+    .eCon{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .eCon a{
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid white;
+    }
+    .edlink:hover{
+       border-color: rgb(216, 11, 113);
+       cursor: pointer;
+    }
+    .edlink:hover i{
+        color: rgb(216, 11, 113);
+     }
+    .projlink:hover{
+        border-color: rgb(216, 11, 113);
+        cursor: pointer;
+    }
+    .projlink:hover i{
+        color: rgb(216, 11, 113);
+     }
+
+    .flip-card {
+        top: 50%;
+        left: 50%;
+        width: 270px;
+        position: absolute;
+        perspective: 1000px;
+        transform: translate(-50%,-50%);
+        background-color: transparent;
+    }
+}

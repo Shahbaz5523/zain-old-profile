@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Saylani Admission Form</title>
+</head>
+
+<body>
+        <a class='home' href="../../index.html">
+        <img src="../../img/home.png" alt="not found" width="50px">
+    </a>
+    <div class="header" align="center">
+        <img src="./IMG/Saylani-logo.png" alt="img not found!">
+        <h2>
+            <a href="#">STUDENT REGISTRATION FORM</a>
+        </h2>
+    </div>
+    <form action="submit.html" class="form">
+        <!-- THIS IS FIRSTNAME -->
+
+        <div>
+            <label for="firstname">FIRST NAME
+                <input required type="text" name="firstname" id="firstname" placeholder="Enter First Name" maxlength="30" size="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS LASTNAME -->
+
+        <div>
+            <label for="lastname">LAST NAME
+                <input required type="text" name="lastname" id="lastname" placeholder="Enter Last Name" maxlength="30" size="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS DATE OF BIRTH -->
+
+        <div>
+            <label for="dob">DATE OF BIRTH
+                <input type="date" name="dob" id="dob" required>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS EMAIL -->
+        <div>
+
+            <label for="email">EMAIL ID
+                <input type="email" name="email" id='email' placeholder="Enter email address" required>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS MOBILE NUMBER -->
+
+        <div>
+            <label for="mobile">MOBILE#
+                <input type="number" name="number" id='number' required placeholder="Enter Mobile Number">
+                <span>(10 digit number)</span>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS GENDER -->
+
+        <div>
+            <label for="gender">GENDER
+                <span class="gender">
+                    Male:
+                    <input type="radio" name="gender" value="male" required id="male" checked> Female:
+                    <input type="radio" name="gender" value="female" required id="female">
+                </span>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS ADDRESS -->
+
+        <div>
+            <label for="address" class="address">ADDRESS
+                <textarea name="address" id="address" cols="32" rows="3"></textarea>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS CITY -->
+
+        <div>
+            <label for="city">City
+                <input required type="text" name="city" id="city" placeholder="Enter City Name" maxlength="30" size="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS Pin code -->
+        <div>
+            <label for="pincode">PIN CODE
+                <input type="number" name="pincode" id='pincode' required placeholder="Enter Pin Code">
+                <span>(6 digit number)</span>
+            </label>
+        </div>
+        <br>
+
+        <!-- THIS IS STATE -->
+
+        <div>
+            <label for="city">STATE
+                <input required type="text" name="state" id="state" placeholder="Enter State Here" maxlength="30" size="30">
+                <span>(max 30 characters a-z and A-Z)</span>
+            </label>
+        </div>
+        <br>
+        <!-- THIS IS COUTRIES -->
+
+        <div>
+            <label for="countries">COUNTRY </label>
+            <select name="countries" id="countries">
+                <option value="Pakistn" class="pak">Pakistan</option>
+                <option value="Soudi Arabia">Soudi Arabia</option>
+                <option value="India">India</option>
+                <option value="United State">United State</option>
+                <option value="America">America</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </div>
+        <br>
+        <!-- THIS IS HOBBIES -->
+        <div>
+            <label for="hobbies">HOBBIES </label>
+            <span class="allhobbies">
+                <span class="drawing">
+                    Drawing
+                    <input type="checkbox" name="hobbies" value="drawing">
+                </span>
+
+                <span class="singing">
+                    Singing
+                    <input type="checkbox" name="hobbies" value="drawing">
+                </span>
+
+                <span class="dancing">
+                    Dancing
+                    <input type="checkbox" name="hobbies" value="drawing">
+                </span>
+            </span>
+            <br>
+
+            <span class="allhobbies2">
+                <span class="sketching">
+                    Sketching
+                    <input type="checkbox" name="hobbies" value="drawing" id="sketching">
+                </span>
+
+                <span class="hockey">
+                    Hockey
+                    <input type="checkbox" name="hobbies" value="drawing" id="hockey">
+                </span>
+
+                <span class="other">
+                    Others
+                    <input type="checkbox" name="hobbies" value="drawing" id="ohCheck">
+                    <input type="text" name="hobbies" id="ohInput" placeholder="Enter Hobby">
+                </span>
+            </span>
+        </div>
+        <!-- THIS IS QUALIFICATION -->
+        <div>
+            <label for="qualification" class="labelQualifi">QUALIFICATION </label>
+            <Table class="table">
+                <tr>
+                    <th>SR#.</th>
+                    <th>EXAMINATION</th>
+                    <th>BOARD</th>
+                    <th>PERSENTAGE</th>
+                    <th>YEAR OF PASSING</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>CLASS X</td>
+                    <td>
+                        <input type="text" name="board" id="board" maxlength="10">
+                    </td>
+                    <td>
+                        <input type="number" name="persentage" id="persentage">
+                    </td>
+                    <td>
+                        <input type="number" name="passyear" id="passyear">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CLASS XII</td>
+                    <td>
+                        <input type="text" name="board" id="board" maxlength="10">
+                    </td>
+                    <td>
+                        <input type="number" name="persentage" id="persentage">
+                    </td>
+                    <td>
+                        <input type="number" name="passyear" id="passyear">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>GRADUATION</td>
+                    <td>
+                        <input type="text" name="board" id="board" maxlength="10">
+                    </td>
+                    <td>
+                        <input type="number" name="persentage" id="persentage">
+                    </td>
+                    <td>
+                        <input type="number" name="passyear" id="passyear">
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>MASTER</td>
+                    <td>
+                        <input type="text" name="board" id="board" maxlength="10">
+                    </td>
+                    <td>
+                        <input type="number" name="persentage" id="persentage">
+                    </td>
+                    <td>
+                        <input type="number" name="passyear" id="passyear">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td align="center">(10 char max)</td>
+                    <td align="center">(upto 2 decimal)</td>
+                    <td></td>
+                </tr>
+            </Table>
+        </div>
+        <!-- THIS IS COURSES -->
+        <div>
+            <label for="courses">COURSES</label>
+            <span class="courses">
+            C#<input type="radio" name="courses" value="c#" id="ch" required>
+            C++<input type="radio" name="courses" value="c++" id="cpp">
+            JAVA<input type="radio" name="courses" value="java" id="java">
+            REACT<input type="radio" name="courses" value="react" id="react">
+        </span>
+        </div>
+        <!-- THIS IS BUTTON -->
+        <div class="btn">
+            <input type="submit" value="SUBMIT" id="submit">
+            <input type="reset" value="RESET" id="reset">
+        </div>
+    </form>
+</body>
+
+<html/>
